@@ -1,0 +1,46 @@
+version = 1
+
+[[analyzers]]
+name = "cfn-lint"
+type = "community"
+
+[[analyzers]]
+name = "kube-linter"
+type = "community"
+
+[[analyzers]]
+name = "solhint"
+type = "community"
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "11"
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/MonkeyMarcel/optimism"
